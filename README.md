@@ -4,6 +4,7 @@
 * 判斷該新聞內文是否含有AML相關焦點人物，並擷取出焦點人物名單
 ## 文件說明
 * create_model.ipynb - 製作model
+* predict_aml.ipynb - predict function
 * api - 使用flask 將model佈署至GCP
 * docs - 相關說明文件
 ## pre-trained model
