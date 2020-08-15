@@ -6,6 +6,7 @@
 * create_model.ipynb - 製作model
 * predict_aml.ipynb - predict function
 * api - 使用flask 將model佈署至GCP
+* scraper - 爬蟲程式 
 * docs - 相關說明文件
 ## pre-trained model
 * [BERT](https://github.com/google-research/bert)
@@ -44,4 +45,4 @@
   * tensorflow-gpu==1.15.3
   * Keras==2.3.1
   * keras-bert==0.84.0
-* sudo gunicorn -w 1 --thread=4 -b 0.0.0.0:8080 --timeout=600 api:app --daemon
+* gunicorn 啟動命令: sudo gunicorn -w 1 --thread=4 -b 0.0.0.0:8080 --timeout=600 api:app --daemon
